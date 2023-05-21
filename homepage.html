@@ -8,13 +8,60 @@
     <title>Moo-dify</title>
 </head>
 <body>
+    <!-- side bar -->
     <header>
-        <h1>Moo-dify</h1>
+        <div class = "navigation">
+            <button class="btn-login-popup" onclick="openPopup()" >Login</button>
+            <br>
+            <button class="login-register" onclick="openPopup()">Register</button>
+        </div>
+    
     </header>
 
-    <footer>
+    <!--outside of side bar-->
+    <div style="margin-left:10%">
+
+    <div class="wrapper">
+        
+        <div class="form-box login" id="login-popup">
+        <!-- <h2 style="color:white" >Login</h2> -->
+            <form action="#">
+                <div class="input_box" style="color:white">
+                    <input type="email" required>
+                    <label>Email</label>
+                </div>
+                <div class="input_box" style="color:white">
+                    <input type="password" required>
+                    <label>Password</label>
+                </div>
+                <button type="submit" class="btn">Login</button>
+                
+            </form>
+        </div>
+
+        <div class="form-box register" id ="register-popup">
+            <!-- <h2 style="color:white" >Register</h2> -->
+                <form action="#">
+                    <div class="input_box" style="color:white">
+                        <input type="email" required>
+                        <label>Email</label>
+                    </div>
+                    <div class="input_box" style="color:white">
+                        <input type="password" required>
+                        <label>Password</label>
+                    </div>
+                    <button type="submit" class="btn">Register</button>
+                    
+                </form>
+            </div>
+    </div>
+
+    </div>
+    <script src="script.js"></script>
+    <!-- end of outside of side bar-->
+    <!-- <footer>
         <p> Version 1.0</p>
         
-    </footer>
+    </footer> -->
 </body>
 </html>
