@@ -1,0 +1,21 @@
+body {
+    display: flex;
+    justify-content: center;
+    background: url(images/sign_up_page_COLOR_MOOD_P.jpeg) no-repeat;
+    background-size: cover;
+    background-position: cover;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 42%;
+    
+    background-color: transparent;    
+    text-align: center;
+    justify-content: space-evenly;
+    align-items: center;
+
+    opacity: 1.0;
+}

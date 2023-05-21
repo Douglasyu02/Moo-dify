@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" type = "text/css" href = "class.css"/> 
+    <title>ratings</title>
+</head>
+<body>
+    <main>
+
+    </main>
+        <div class="container">
+            <form action="rate.php" method="post" class="form">
+                <div class="radio-container">
+                    <label style="height: 50px; width: 450px;">How did you feel about todays class?</label>
+                    <input type="radio" id="horrible" name="mood" value="horrible">
+                    <label for="horrible"><img src="" alt="horrible"></label>
+                    
+                </div>
+                <div class="radio-container">
+                    <input type="radio" id="bad" name="mood" value="bad">
+                    <label for="bad"><img src="" alt="bad"></label>
+                    
+                </div>
+                <div class="radio-container">
+                    <input type="radio" id="meh" name="mood" value="meh">
+                    <label for="meh"><img src="" alt="meh"></label>   
+                    
+                </div>
+                <div class="radio-container"> 
+                    <input type="radio" id="good" name="mood" value="good">
+                    <label for="good"><img src="" alt="good"></label>
+                    
+                </div>
+                <div class="radio-container">
+                    <input type="radio" id="fantastic" name="mood" value="fantastic">
+                    <label for="fantastic"><img src="" alt="fantastic"></label> 
+                </div>
+
+                <div class="input-box">
+                    <label for="comments">Comment:</label>
+                    <textarea id="comments" name="comments" rows="5" cols="50" class="input comments-box"></textarea>
+                </div>
+                <input type="submit" value="Submit"><br>
+                <!--<input type="submit" value="Submit to teacher">-->
+            </form>
+            
+        </div>
+
+    
+</body>
+</html>
